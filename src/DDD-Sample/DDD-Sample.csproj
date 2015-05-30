@@ -102,6 +102,12 @@
   <ItemGroup>
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="Contracts\Commands\SampleCommands.cs" />
+    <Compile Include="Domain\AccountProcessingDept\Application.cs" />
+    <Compile Include="Domain\AccountProcessingDept\ApplicationProcessorService.cs" />
+    <Compile Include="Domain\AccountProcessingDept\ApplicationStatus.cs" />
+    <Compile Include="Domain\MembershipServicesDept\AccountStatus.cs" />
+    <Compile Include="Domain\MembershipServicesDept\CardAccount.cs" />
+    <Compile Include="Domain\MembershipServicesDept\MembershipService.cs" />
     <Compile Include="Domain\SamplesApplicationService.cs" />
     <Compile Include="Infrastructure\Configuration\Settings.cs" />
     <Compile Include="Infrastructure\Configuration\SettingsBase.cs" />

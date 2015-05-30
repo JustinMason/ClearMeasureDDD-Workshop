@@ -40,6 +40,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountProcessorTests.cs" />
     <Compile Include="sample_aggregate_specs.cs" />
     <Compile Include="SpecificationBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
